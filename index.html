@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+
+<html lang="fa">
+
+    <head>
+  
+    <meta http-equiv="Content-Language" content="fa">
+    <meta name="Content-Type" content="text/html; charset=utf-8">
+    <title>varzesh3</title>
+
+    <link rel="stylesheet"href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <!-- استفاده از تک a برای تایم -->
+            <a href="login.html" class="btn btn-primary btn-sm active" role="button" aria-pressed="true">ورود</a>
+            <a id="clock" href="#" class="btn btn-light btn-sm active" role="button" aria-pressed="true">12:45 </a>
+            <a id="data" href="#" class="btn btn-light btn-sm active" role="button" aria-pressed="true"> شنبه 8 تیر  </a>
+                
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">تیم فانتزی </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">ویدیو</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">اخبار زنده</a>
+                    </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="#"> ارتباط با ما</a>
+                    </li>
+                     <li class="nav-item">
+                      <a class="nav-link" href="#">کارت شارژ </a>
+                    </li>
+                     <li class="nav-item">
+                      <a id="changewordhead" class="nav-link" href="#">تبلیغات </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+
+              <div id="logomain" >
+                    <img  src="img/varzesh3-logo.png" class="rounded" alt="">
+      
+              </div>
+              
+
+              
+
+
+              <nav class="navbar navbar-expand-lg navbar-whait bg-light">
+
+                <!-- منوی دوم سایت  -->
+
+                <form class="form-inline my-2 my-lg-0">
+                  <input class="form-control mr-sm-2" type="search" placeholder="جستجوی اخبار ، تیم ها ، بازیکان ها و ویدیو های ورزشی ....." aria-label="Search">
+                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                    
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"> صفحه اصلی </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"> جداول لیگ ها </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"> روزنامه </a>
+                        </li>
+                         <li class="nav-item">
+                          <a class="nav-link" href="#">  ویدیو </a>
+                        </li>
+                         <li class="nav-item">
+                          <a class="nav-link" href="#"> جام حذفی </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#"> نقل و انتقالات </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">  کمپین ستاره ها </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">  پخش زنده </a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">  نتایج زنده </a>
+                        </li>
+                         
+                      </ul>
+                    </div>
+                  </nav>
+
+
+
+                  <!-- جدول بندی سایت   -->
+                   
+                  <!--ردیف اول -->
+
+                  <div class="container">
+                      <div id="rowone" class="row">
+                        <div id="rawone1" class="col-sm4">
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row no-gutters">
+                                  <div class="col-md-4">
+                                      <div class="bd-example">
+                                          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                                            <ol class="carousel-indicators">
+                                              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                            </ol>
+                                            <div class="carousel-inner">
+                                              <div class="carousel-item active">
+                                                <img src="img/image slider0.jpg" class="d-block w-90" alt="...">
+                                                
+                                                  
+                                                  
+                                                
+                                              </div>
+                                              <div class="carousel-item">
+                                                <img src="img/image slider1.jpg" class="d-block w-90" alt="...">
+                                                
+                                              </div>
+                                              <div class="carousel-item">
+                                                <img src="img/image slider2.jpg" class="d-block w-90" alt="...">
+                                                
+                                              </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                              <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                              <span class="sr-only">Next</span>
+                                            </a>
+                                          </div>
+                                        </div>
+                                  </div>
+                                  <div class="col-md-8">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+ 
+                            
+                        </div>
+                        <div  id="giftrawone2" class="col-sm4">
+                            <img  src="img/col3 animator.jpg" alt="..." class="img-thumbnail">
+                        </div>
+                        <div id="rowonegift3" class="col-sm4">
+                            <img src="img/giftrawone1.jpg" alt="..." class="img-thumbnail">
+                        </div>
+                      </div>
+                    </div>
+
+                    <!--ردیف دوم-->
+
+                    <div class="container">
+                        <div id="rowtow" class="row">
+                          <!--سطر اول-->
+
+                          <div class="col-sm3 ">
+                              <img src="img/giftrawtwo1.jpg" alt="..." class="img-thumbnail">
+                              <div>
+                                  <img src="img/giftrawtwo2.jpg" alt="..." class="img-thumbnail">
+                              </div>
+                              <div>
+                                  <table>
+                                      <tr>
+                                        <th id="headerligdiran">لیگ های ایران</th>
+                                      </tr>
+                                      <tr>
+                                        <td>
+                                            <select class="selectligtbartar" name="لیگ برتر">
+                                                <option value="لیگ برتر ">لیگ برتر</option>
+                                                <option value="لیگ آزادگان 97-98">لیگ آزادگان97-98</option>
+                                                <option value="لیگ برتر فوتسال">لیگ برتر فوتسال</option>
+                                                
+                                              </select>
+                                              <br>
+                                              <br>
+
+                                              <p id="textjadvalligdiran">انتخاب هفته:</p>
+                                              <select id="select2listboxtweek" name="هفته 30">
+                                                  <option value="هفته 1">هفته 1</option>
+                                                  <option value="هفته 2">هفته 2</option>
+                                                  <option value="هفته 3">هفته 3</option>
+                                                  <option value="هفته 4"> هفته 4</option>
+                                                  <option value="هفته 5">هفته 5</option>
+                                                  <option value="هفته 6">هفته 6</option>
+                                                  <option value="هفته 7">هفته 7</option>
+                                                  <option value="هفته 8">هفته 8</option>
+                                                  <option value="هفته 9">هفته 9</option>
+                                                  <option value="هفته 10">هفته 10</option>
+                                                  <option value="هفته 11">هفته 11</option>
+                                                  <option value="هفته 12">هفته 12</option>
+                                                  <option value="هفته 13">هفته 13</option>
+                                                  <option value="هفته 14">هفته 14</option>
+                                                  <option value="هفته 15">هفته15</option>
+                                                  <option value="هفته 16">هفته16</option>
+                                                  <option value="هفته 17">هفته 17</option>
+                                                  <option value="هفته 18">هفته 18</option>
+                                                  <option value="هفته 19">هفته 19</option>
+                                                  <option value="هفته 20">هفته 20</option>
+                                                  <option value="هفته 21">هفته 21</option>
+                                                  <option value="هفته 22">هفته 22</option>
+                                                  <option value="هفته 23">هفته 23</option>
+                                                  <option value="هفته 24">هفته 24</option>
+                                                  <option value="هفته 25">هفته 25</option>
+                                                  <option value="هفته 26">هفته 26</option>
+                                                  <option value="هفته 27">هفته 27</option>
+                                                  <option value="هفته 28">هفته 28</option>
+                                                  <option value="هفته 29">هفته 29</option>
+                                                  <option value="هفته 30">هفته 30</option>
+                                                </select>
+                                                <hr>
+                                                <p class="text2jadvalligeiran">لیگ برتر ایران </p>
+                                                <p class="text3jadvalligeiran">پنجشنبه 26 اردبیهشت 1398</p>
+                                        </td>
+                                      </tr>
+
+                                      <td class="text-left">
+                                          <a  href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank">استقلال خوزستان </a>
+                                          <a   href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank"> سپاهان </a>
+                                        </td>
+                                      </tr>
+                                      <td class="text-left">
+                                          <a href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank">استقلال خوزستان </a>
+                                          <a id="text" href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank"> سپاهان </a>
+                              
+                                        </td>
+                                      </tr>
+                                      <td class="text-left">
+                                          <a href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank">استقلال خوزستان </a>
+                                          <a dir="rtl" href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank"> سپاهان </a>
+                                        </td>
+                                      </tr>
+                                      <td class="text-left">
+                                          <a href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank">استقلال خوزستان </a>
+                                          <a dir="rtl" href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank"> سپاهان </a>
+                                        </td>
+                                      </tr>
+                                      <td class="text-left">
+                                          <a href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank">استقلال خوزستان </a>
+                                          <a dir="rtl" href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank"> سپاهان </a>
+                                        </td>
+                                      </tr> 
+                                      <td class="text-left">
+                                          <a href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank">استقلال خوزستان </a>
+                                          <a dir="rtl" href="/team/600Y/%D8%A7%D8%B3%D8%AA%D9%82%D9%84%D8%A7%D9%84" target="_blank"> سپاهان </a>
+                                        </td>
+                                      </tr> 
+
+
+                                    </table>
+                                     <!-- اسلایدر مطالب ویژه-->
+
+                                    <div id="darevizeh" class="card border-light mb-3" style="max-width: 17rem;">
+                                        <div  class="card-header"> مطالب پیشنهادی
+                                            <img id="logomedislider" src="img/logomedia.jpg" lass="rounded float-right" alt="">
+                                          
+                                            </div>
+                                        
+                                        <div class="card-body">
+                                            <div class="bd-example">
+                                                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                                                  <ol class="carousel-indicators">
+                                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                                  </ol>
+                                                  <div class="carousel-inner">
+                                                    <div class="carousel-item active">
+                                                        <a href="#"><img src="img/slider1.jpg" class="d-block w-100" alt=""></a>
+                                                      <div class="carousel-caption d-none d-md-block">
+                                                      </div>
+                                                      <p class="slidermatalebevzeo"> با ویدیو های کنکور یو آ ، شما هم رتبه برتر شوید  </p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <a href="#"><img src="img/slider2.jpg" class="d-block w-100" alt=""></a>
+                                                      <div class="carousel-caption d-none d-md-block">
+                                                      </div>
+                                                      <p class="slidermatalebevzeo">لیست تمام خونه های فروشی تهران </p>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <a href="#"><img src="img/slider3.jpg" class="d-block w-100" alt=""></a>
+                                                      <div class="carousel-caption d-none d-md-block">
+                                                      </div>
+                                                      <p class="slidermatalebevzeo">قیمت امروز بلیط قطار مشهد را در سایت علی بابا مشاهده کنید</p>
+                                                    </div>
+                                                  </div>
+                                                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Previous</span>
+                                                  </a>
+                                                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                    <span class="sr-only">Next</span>
+                                                  </a>
+                                                </div>
+                                              </div>
+                                        </div>
+                                      </div>
+                              </div>
+
+
+                             
+                              
+                          </div>
+                          
+
+                              <!--سطر دوم-->
+
+                          <div class="col-sm3">
+                              <img src="img/giftrawtwo3.jpg" alt="..." class="img-thumbnail">
+
+                              <!--اسلایذر ویدیو-->
+
+                              <div id="slidervideo" class="card bg-light mb-3" style="max-width: 17rem;">
+                                  <div class="card-header">ویدیو</div>
+                                  <div class="bd-example">
+                                      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                              <video width="280" height="200" controls>
+                                            <img src="video/صحبت_های_بشار_رسن_درباره_آخرین_وضعیت_خود_و_پرسپولیس_auto.mp4" class="d-block w-100" alt="...">
+                                            </video>
+                                            <div class="carousel-caption d-none d-md-block">
+                                        
+                                            </div>
+                                            <p class="textsliderroznamefroshi">صحبت های بشاررسن درباره ای وضعیت خود  و پرسپولیس</p>
+                                          </div>
+                                          <div class="carousel-item">
+                                              <video width="280" height="200" controls>
+                                            <img src="video/صحبت_های_بشار_رسن_درباره_آخرین_وضعیت_خود_و_پرسپولیس_auto.mp4" class="d-block w-100" alt="...">
+                                            </video>
+                                            <div class="carousel-caption d-none d-md-block">
+                                              
+                                              
+                                            </div>
+                                            <p class="textsliderroznamefroshi">صحبت های بشاررسن درباره ای وضعیت خود  و پرسپولیس</p>
+                                          </div>
+                                          <div class="carousel-item">
+                                              <video width="280" height="200" controls>
+                                            <img src="video/صحبت_های_بشار_رسن_درباره_آخرین_وضعیت_خود_و_پرسپولیس_auto.mp4" class="d-block w-100" alt="...">
+                                            </video>
+                                            <div class="carousel-caption d-none d-md-block">
+                                      
+                                            </div> 
+                                            <p class="textsliderroznamefroshi">صحبت های بشاررسن درباره ای وضعیت خود  و پرسپولیس</p>
+                                          </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                          <span class="sr-only">Next</span>
+                                        </a>
+                                      </div>
+                                    </div>
+                                    
+                                  <div class="card-body">
+                                  </div>
+                                  <p class="card-text"></p>
+                                  <!-- اسلایدر  وز نامه فروش -->
+
+                                  <div  class="card border-light mb-3" style="max-width: 17rem;">
+                                      <div id="textheadgisheroznameforoshi" class="card-header">گیشه روزنامه ورزشی</div>
+                                      <div class="card-body">
+                                          <div class="bd-example">
+                                              <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                                                <ol class="carousel-indicators">
+                                                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                                                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                                                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                  <div class="carousel-item active">
+                                                    <img src="img/rozname1.jpg" class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                      
+                                                    </div>
+                                                    <p class="textsliderroznamefroshi">ایران ورزشی پنجشنبه 6 تیر 1398</p>
+                                                  </div>
+                                                  <div class="carousel-item">
+                                                    <img src="img/rozname2.jpg" class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                    </div>
+                                                    <p class="textsliderroznamefroshi">هدف پنجشنبه 6 تیر 1398</p>
+                                                    
+                                                    
+                                                    
+                                                  </div>
+                                                  <div class="carousel-item">
+                                                    <img src="img/rozname3.jpg" class="d-block w-100" alt="...">
+                                                    <div class="carousel-caption d-none d-md-block">
+                                                    </div>
+                                                    <p class="textsliderroznamefroshi">هدف پنجشنبه 6 تیر 1398</p>
+                                                    
+                                                    
+                                                    
+                                                  </div>
+                                                </div>
+                                                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                  <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                  <span class="sr-only">Next</span>
+                                                </a>
+                                              </div>
+                                            </div>
+                                      </div>
+                                    </div>
+                                    <img  src="img/giftrawsix.gif" alt="..." class="img-thumbnail">
+                                    
+                                </div>    
+                                
+                                </div>
+                         
+                          
+
+                            
+                          
+
+                          
+
+                          <!--سطر سوم-->
+
+                          <div class="col-sm3">
+                              <div class="card" style="width: 17rem;">
+                                  <div class="card-body">
+                                    <p id="titleakhbarfotball" class="card-title">اخبار فوتبال</p>
+                                    <hr>
+                                    <ul class="nav nav-tabs">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" href="#">جدیدترین</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">پربازدیدترین</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="#">پرحاشیه</a>
+                                        </li>
+                                      </ul>
+                                      <div class="sizenov2">
+                                          <a  href="#"><p >مهدی طارمی نیامد؛ رضاییان هم نمی‌آید</p></a>
+                                          <a  href="#"><p >چهار بعلاوه یک گزینه روی میز مدیران پرسپولیس</p></a>
+                                          <a  href="#"><p > ورزشگاه غدیر اهواز نیازمند توجه مسئولان </p></a>
+                                          <a  href="#"><p >گواردیولا: دیر یا زود به بارسلونا برمی گردم</p></a>
+                                          <a  href="#"><p >توصیه‌های‌کارخانه‌برای‌عملکردبهتر‌تیم‌ملی‌والیبال</p></a>
+                                          <a  href="#"><p >والیبال ایران و یک گام تا شیکاگو</p></a>
+                                          <a  href="#"><p >واکنش طارمی به درخواست‌های چندصد هزار دلاری</p></a>
+                                          <a  href="#"><p >آخرین خبرها از وضعیت سرمربی فصل آینده پرسپولیس</p></a>
+                                          <a  href="#"><p >رونالدینیو و دکو مست به تمرین بارسا می آمدند!</p></a>
+                                          <a  href="#"><p >ساری: در یوونتوس یک هدف را دنبال می کنم</p></a>
+                                          <a  href="#"><p >اولین بازی که رونالدو همه را خیره کرد</p></a>
+                                          <a  href="#"><p >دی لیخت: همیشه می خواستم مثل رونالدو باشم</p></a>
+                                          <a  href="#"><p >بهترین لحظات نیلمار در لالیگا</p></a>
+                                          <a  href="#"><p >پارس جنوبی با چهره جدید در لیگ برتر نوزدهم</p></a>
+                                          <a  href="#"><p >دمبله؛ ستاره ای که در رختکن بارسا محبوب نیست</p></a>
+                                          <a  href="#"><p >دژاگه و شجاعی از شنبه در تمرینات تراکتور</p></a>
+                                          <a  href="#"><p >میداوودی، طیبی و آغاز مربیگری (عکس)</p></a>
+                                          <a  href="#"><p >نتو خرید جدید بارسلونا در پست دروازه</p></a>
+                                          <a  href="#"><p >ستاره ملی پوش ایرانی مسافر اسپانیا شد</p></a>
+                                          <a  href="#"><p >استقلال 98 به کارگردانی ایتالیایی وسواسی</p></a>
+                                          <a  href="#"><p >ستاره فرانسوی؛ کلید انتقال نیمار به بارسلونا (عکس)</p></a>
+                                          <a  href="#"><p >گزارشی از تمرین جنجالی پرسپولیس </p></a>
+                                          <a  href="#"><p >مس سونگون، حریفانش در آسیا را شناخت</p></a>
+                                          <a  href="#"><p >مس سونگون، حریفانش در آسیا را شناخت</p></a>
+                                          
+                                          
+                                          
+                                          
+
+
+                                      </div>
+                                      
+                                  </div>
+                                </div>
+                          </div>
+
+                          <!--سطر چهارم-->
+
+                          <div class="col-sm3">
+                              <img src="img/col4 animator.jpg" alt="..." class="img-thumbnail">
+                              <div>
+                                  <img src="img/giftamodei.gif" alt="..." class="img-thumbnail">
+                              </div>
+                              <div>
+                                  <img src="img/giftamodei2.gif" alt="..." class="img-thumbnail">
+                              </div>
+                              <div>
+                                  <img src="img/giftamodei3.gif" alt="..." class="img-thumbnail">
+                              </div>
+
+                            </div>
+                        </div>
+                      </div>
+
+ 
+
+                      
+
+                
+
+                    </body>
+                    </html>                    

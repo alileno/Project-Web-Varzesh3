@@ -1,0 +1,207 @@
+
+#navbarNav{
+
+  direction: rtl;
+  font-size: 12px;
+}
+
+#changewordhead{
+  color: yellow;
+}
+
+#logomain{
+  
+  text-align: right;
+  margin-top: 12px;
+  margin-right: 60px;
+}
+#clock{
+  margin-left: 5px;
+}
+
+#data{
+  margin-left: 5px;
+}
+
+
+
+
+
+
+#logologin{
+  margin-right: 20px;
+}
+
+#text1{
+  font-size: 15px;
+  text-align: center;
+ margin-top: 25px;
+}
+
+#text2{
+  font-size: 12px;
+  color: lightgray;
+  text-align: center;
+
+}
+
+
+
+
+#formloginemail{
+  direction: rtl;
+  width: 250px;
+  height: 50px;
+  
+
+}
+
+
+
+
+
+#loginemail{
+  font-size: 12px;
+  float: right;
+  
+  
+}
+
+#loginpass{
+  font-size:12px;
+  float: right;
+  
+  
+}
+
+#btnlogin{
+  margin-top: 200px;
+  
+}
+
+#InputEmail1{
+  width: 300px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 25px;
+}
+#InputPassword1{
+  width: 300px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 25px;
+}
+
+#rowone{
+  direction: rtl;
+}
+#rawone1{
+  margin-top: 15px;
+}
+#giftrawone2{
+  margin-top: 15px;
+  
+}
+#rowonegift3{
+  margin-top:15px;
+}
+
+#rowtow{
+  direction: rtl;
+}
+
+#titleakhbarfotball{
+  text-align: center;
+  font-size: 18px;
+}
+#dadereakhbarfotball{
+  margin-bottom: 20px;
+}
+
+.sizenov2{
+  text-align: right;
+  font-size: 10px;
+  margin-top: 10px;
+  margin-right: 12px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.headerligdiran{
+  text-align: center;
+
+}
+.selectligtbartar{
+  width: 100%;
+  height: 30px;
+}
+
+#textjadvalligdiran{
+  text-align: center;
+}
+#select2listboxtweek{
+  width: 100%;
+  height: 30px;
+}
+.text2jadvalligeiran{
+  text-align: center;
+  color: white;
+  background-color: orange;
+
+}
+.text3jadvalligeiran{
+  margin-bottom: 0 auto;
+  text-align: center;
+  color:white;
+  background-color: black;
+
+}
+#videosider{
+  margin-top: 15px;
+}
+.card-header{
+  text-align: center;
+}
+
+.textsliderroznamefroshi{
+  text-align: center;
+  font-size: 10px;
+}
+#slidervideo{
+  margin-top: 18px;
+}
+
+.slidermatalebevzeo{
+
+  text-align: center;
+  font-size: 12px;
+}
+
+
+#darevizeh{
+  margin-top: 15px;
+
+}
+.textsliderroznamefroshi{
+
+  text-align-last: center;
+  font-size: 12px;
+}
+#rawsix{
+  direction: rtl;
+}
+
